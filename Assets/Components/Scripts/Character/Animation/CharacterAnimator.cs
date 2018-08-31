@@ -8,6 +8,7 @@ public class CharacterAnimator : MonoBehaviour
     public static readonly int IDLE = Animator.StringToHash("Idle");
     public static readonly int IDLE_THINKING = Animator.StringToHash("IdleThinking");
     public static readonly int IDLE_REJECTED = Animator.StringToHash("IdleRejected");
+    public static readonly int ATTACK = Animator.StringToHash("Attack");
 
     private Animator animator;
     private Character character;
@@ -23,5 +24,8 @@ public class CharacterAnimator : MonoBehaviour
         this.animator.SetFloat(HORIZONTAL_SPEED, this.character.HorizontalSpeed);
         this.animator.SetFloat(VERTICAL_SPEED, this.character.VerticalSpeed);
         this.animator.SetBool(IS_GROUNDED, this.character.IsGrounded);
+
+        if (Input.GetKeyDown(KeyCode.J))
+            this.animator.SetTrigger(ATTACK);
     }
 }

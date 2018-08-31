@@ -28,6 +28,7 @@ public class Character : MonoBehaviour
     private float currentHorizontalSpeed; // In meters/second
     private float currentVerticalSpeed; // In meters/second
 
+
     #region Unity Methods
 
     protected virtual void Awake()
@@ -354,5 +355,8 @@ public class Character : MonoBehaviour
         }
 
         return false;
+
+        
     }
+
 }
