@@ -24,8 +24,5 @@ public class CharacterAnimator : MonoBehaviour
         this.animator.SetFloat(HORIZONTAL_SPEED, this.character.HorizontalSpeed);
         this.animator.SetFloat(VERTICAL_SPEED, this.character.VerticalSpeed);
         this.animator.SetBool(IS_GROUNDED, this.character.IsGrounded);
-
-        if (Input.GetKeyDown(KeyCode.J))
-            this.animator.SetTrigger(ATTACK);
     }
 }
