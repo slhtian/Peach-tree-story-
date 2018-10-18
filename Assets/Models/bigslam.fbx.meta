@@ -9,17 +9,31 @@ ModelImporter:
     100006: joint3
     100008: joint4
     100010: pCylinder1
+    100012: big_slam:joint1
+    100014: big_slam:joint2
+    100016: big_slam:joint3
+    100018: big_slam:joint4
+    100020: big_slam:pCylinder1
     400000: //RootNode
     400002: joint1
     400004: joint2
     400006: joint3
     400008: joint4
     400010: pCylinder1
+    400012: big_slam:joint1
+    400014: big_slam:joint2
+    400016: big_slam:joint3
+    400018: big_slam:joint4
+    400020: big_slam:pCylinder1
     2100000: lambert1
+    2300000: //RootNode
+    3300000: //RootNode
     4300000: pCylinder1
+    4300002: big_slam:pCylinder1
     7400000: Take 001
     9500000: //RootNode
     13700000: pCylinder1
+    13700002: big_slam:pCylinder1
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -47,7 +61,35 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 210
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
